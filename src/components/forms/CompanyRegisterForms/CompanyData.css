@@ -1,0 +1,56 @@
+.formCompanyData {
+  margin-top: -8%;
+}
+
+.row {
+  margin: 1%;
+}
+
+header {
+  background-color: lightgray;
+  height: 1vh;
+}
+
+.divFormCompanyData {
+  background-color: lightgray;
+  height: calc(85vh - 50px);
+}
+
+.button-enterprise {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-top: 5%;
+  width: 15%;
+}
+
+.button-enterprise:hover {
+  background-color: #719fed;
+  color: black;
+  font-weight: 500;
+}
+
+input {
+  text-align: center;
+}
+
+.form-check-input {
+  margin-right: 15px;
+}
+
+.header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  font-weight: 400;
+}
+
+.divInput {
+  margin-right: 4.5%;
+}
+
+.companyData {
+  width: 75%!important;
+}

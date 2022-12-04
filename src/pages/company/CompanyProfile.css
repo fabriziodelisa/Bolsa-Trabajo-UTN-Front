@@ -1,0 +1,72 @@
+#divForm {
+  margin-top: 5%;
+}
+.form {
+  background-color: lightgray;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.colmd12 {
+  margin-top: 0!important;
+}
+
+.footerCompany {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  top: 85vh;
+  text-align: center;
+  background-color: #719FED;
+  line-height: 1%;
+}
+
+.containProfile {
+  margin-top: -20px!important;
+}
+
+header {
+  background-color: lightgray;
+  height: 1vh;
+}
+
+.divFormProfileCompany {
+  background-color: lightgray;
+  height: calc(100vh - 56px);
+}
+
+#row {
+  margin-bottom: 8%;
+}
+
+#btnCompany {
+  margin-top: -2%;
+}
+
+.divInputCompany {
+  margin-left: 9%;
+}
+
+.divInputRadio {
+  margin-right: 8%;
+}
+
+#row3 {
+  margin-bottom: 0%;
+}
+
+#row44 {
+  margin-top: 2.8%;
+}
+
+.p-radio {
+  margin-bottom: 1%;
+}
+
+.col-md-12 {
+  margin-top: 7%;
+}

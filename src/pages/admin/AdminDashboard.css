@@ -1,0 +1,32 @@
+.layout {
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+}
+
+.sidebar {
+    width: 290px;
+    height: 100%;
+    background-color: #212529;
+}
+
+.content {
+    display: flex;
+    padding: 40px;
+}
+
+.title {
+    height: 75px;
+    color: white;
+}
+
+.sidebar-button {
+    background-color: #212529;
+    height: 50px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.form-check-input {
+    margin: 0;
+}

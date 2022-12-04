@@ -1,0 +1,272 @@
+/* Reseting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #ecf0f3;
+}
+
+.div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: calc(100vh - 60px);
+}
+
+.wrapper {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper > form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-dark {
+  background-color: #212529;
+}
+
+.wrapper-dark > div {
+  color: white;
+}
+
+.wrapper-dark .form-field {
+  box-shadow: none;
+  width: 100%
+}
+
+.wrapper-dark .form-field > input {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper-dark .form-field > input::placeholder {
+  color: rgba(138, 133, 133, 0.589);
+}
+
+.wrapper-dark form > button {
+  box-shadow: none;
+}
+
+#validation-message {
+  display: none;
+  justify-content: center;
+}
+#validation-message > p {
+  color: #ff5a20;
+  margin: 5px 0;
+}
+
+.logo {
+  width: 80px;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7,
+    -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: 1.3px;
+}
+
+.wrapper .form-field input {
+  width: 50%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 20px;
+  background-color: white;
+  padding: 5px 0;
+  color: rgb(0 0 0);
+  border-radius: 3px;
+}
+
+.wrapper .form-field > .login-input {
+  width: 60%;
+}
+
+.wrapper .form-field input:-internat-autofill-selected {
+  background-color: transparent;
+}
+
+.wrapper .form-field {
+  margin: 20px 0;
+}
+
+.wrapper .form-field .fas {
+  color: #555;
+}
+
+.button {
+  width: 250px;
+  height: 40px;
+  background-color: #719FED;
+  color: #fff;
+  border-radius: 0;
+  letter-spacing: 1.3px;
+  border: none;
+}
+
+.wrapper .main-logo {
+  width: 250px;
+}
+
+.wrapper .button:hover {
+  background-color: #039be5;
+}
+
+.wrapper #typeUser {
+  width: 160px;
+  color: white;
+  text-align: center;
+  background-color: #719FED;
+  border: #719FED;
+}
+
+.wrapper #typeUser:hover {
+  cursor: pointer;
+}
+
+.wrapper a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #03a9f4;
+}
+
+.wrapper a:hover {
+  color: #039be5;
+}
+
+.spinner {
+  display: none;
+  margin: 30px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #BFBFBF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+.category-field {
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  margin-bottom: 20px;
+}
+
+.category-field > select {
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  padding: 15px;
+  outline: none;
+}
+
+.wrapper-light > form > .category-field > select {
+  color: #757575;
+}
+
+.wrapper-dark > form > .category-field > select {
+  background-color: #212529;
+  color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .div-wrapper {
+    height: calc(100vh - 96px);
+  }
+}
+
+@media (max-width: 768px) {
+  .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper > form {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+
+}
+
+
